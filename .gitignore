@@ -1,0 +1,14 @@
+# Yarn Berry
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# VS Code Extension
+out
+dist
+node_modules
+.vscode-test/
+*.vsix
