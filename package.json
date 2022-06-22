@@ -1,5 +1,6 @@
 {
-	"name": "norms-vscode",
+	"publisher": "norms",
+	"name": "vscode",
 	"displayName": "Norms",
 	"description": "Integrates your organization's norms into VS Code.",
 	"version": "0.0.1",
@@ -14,13 +15,13 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:norms-vscode.helloWorld"
+		"onCommand:norms.helloWorld"
 	],
 	"main": "./out/entrypoint.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "norms-vscode.helloWorld",
+				"command": "norms.helloWorld",
 				"title": "Hello World"
 			}
 		]

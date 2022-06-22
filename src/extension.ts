@@ -11,7 +11,7 @@ export function activate(context: vscode.ExtensionContext) {
 	log.trace('activate()');
 
 	// Implementation of the helloWorld command (declared in package.json)
-	let disposable = vscode.commands.registerCommand('norms-vscode.helloWorld', () => {
+	let disposable = vscode.commands.registerCommand('norms.helloWorld', () => {
 		log.trace('command: helloWorld');
 
 		vscode.window.showInformationMessage('Ohai from Norms!');
