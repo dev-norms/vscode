@@ -14,7 +14,7 @@ export function activate(context: vscode.ExtensionContext) {
 	let disposable = vscode.commands.registerCommand('norms.helloWorld', () => {
 		log.trace('command: helloWorld');
 
-		vscode.window.showInformationMessage('Ohai from Norms!');
+		vscode.window.showInformationMessage('Ohai and stuff from Norms!');
 	});
 
 	context.subscriptions.push(disposable);
